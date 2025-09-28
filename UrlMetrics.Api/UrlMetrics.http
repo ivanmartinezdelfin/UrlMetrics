@@ -1,0 +1,6 @@
+@UrlMetrics_HostAddress = http://localhost:5244
+
+GET {{UrlMetrics_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

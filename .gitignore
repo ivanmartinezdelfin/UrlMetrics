@@ -1,0 +1,13 @@
+# dotnet
+bin/
+obj/
+*.user
+*.swp
+
+# SQLite
+*.db
+*.db-shm
+*db-wal
+
+# Logs
+logs/
