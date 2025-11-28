@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 namespace UrlMetrics.Api.Models
 {
     //Índice único para que no se repitan shortcodes
-    [Index(nameof(Shortcode), isUnique = true)]
+    [Index(nameof(ShortCode), IsUnique = true)]
     public class Links
     {
         public int Id { get; set; }
